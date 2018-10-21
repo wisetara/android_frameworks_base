@@ -103,7 +103,7 @@ public class UiDevice {
      * @param compressed true to enable compression; else, false to disable
      * @since API Level 18
      */
-    public void setCompressedLayoutHeirarchy(boolean compressed) {
+    public void setCompressedLayoutHierarchy(boolean compressed) {
         getAutomatorBridge().setCompressedLayoutHierarchy(compressed);
     }
 
@@ -444,7 +444,7 @@ public class UiDevice {
      * @param endX X-axis value for the ending coordinate
      * @param endY Y-axis value for the ending coordinate
      * @param steps is the number of steps for the swipe action
-     * @return true if swipe is performed, false if the operation fails 
+     * @return true if swipe is performed, false if the operation fails
      * or the coordinates are invalid
      * @since API Level 18
      */
